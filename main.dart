@@ -4,7 +4,7 @@ import 'Student.dart';
 
 main() {
 
-  print('Are you a Student or an Employee ?');
+  print('Are you a Student ?');
   String x = stdin.readLineSync()!.toLowerCase();
 
   if ( x == 'yes' ){

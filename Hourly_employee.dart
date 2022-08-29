@@ -15,5 +15,9 @@ class Hourly_employee extends Employee{
 
   set hour_rate (double hour_rate) => this._hour_rate = hour_rate;
   double get hour_rate => _hour_rate!;
+  
+  double get Hour_employee{
+    return (_working_hour! * salary);
+  }
 
 }
